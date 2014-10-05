@@ -4,7 +4,7 @@ html, body {
 	font-family: sans-serif;
 }
 body {
-	background-color: #adafb2;
+	background-color: #ffffff;
 }
 header {
 	color: #ffffff;
@@ -19,4 +19,26 @@ header {
 header h1 {
 	margin: 0;
 	padding: 0;
+}
+/*--- Navigation ---*/
+nav ul {
+	padding: 0;
+	margin: 0;
+}
+nav li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: inline;
+	color: #ffffff;
+}
+
+nav li a:visited {
+	text-decoration: none;
+	color:white;
+}
+
+nav li a:link {
+	color: white;
+	text-decoration: none;
 }
